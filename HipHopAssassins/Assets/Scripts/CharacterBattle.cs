@@ -13,7 +13,7 @@ public class CharacterBattle : MonoBehaviour
   private GameObject selectionCircleGameObject;
   private HealthSystem healthSystem;
   public GameObject healthBarObject;
-  public GameObject thisHealthBar;
+  private GameObject thisHealthBar;
 
   private enum State
   {
@@ -44,8 +44,19 @@ public class CharacterBattle : MonoBehaviour
     }
 
     healthSystem = new HealthSystem(100);
-   // thisHealthBar = Instantiate(healthBarObject, GetPosition(), Quaternion.identity);
+
+    //Spawn Health bar above units
+    Vector3 position = new Vector3(GetPosition().x,GetPosition().y+1,GetPosition().z);
+    thisHealthBar = Instantiate(healthBarObject, position, Quaternion.identity);
+    thisHealthBar.transform.parent = gameObject.transform;
+    healthSystem.onHealthChanged += HealthSystem_onHealthChanged;
   }
+
+  private void HealthSystem_onHealthChanged(object sender, EventArgs e)
+  {
+    thisHealthBar.transform.localScale = new Vector3(healthSystem.GetHealthPercent(), 1);
+  }
+
   private void Update()
   {
     switch(state)

@@ -98,6 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81525ee70a258494b859f22d03c99ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarObject: {fileID: 4574397216773630770, guid: 80ad4dd4eba56d8458d4463bd654eb37, type: 3}
+  thisHealthBar: {fileID: 0}
 --- !u!114 &7950667007557395281
 MonoBehaviour:
   m_ObjectHideFlags: 0
