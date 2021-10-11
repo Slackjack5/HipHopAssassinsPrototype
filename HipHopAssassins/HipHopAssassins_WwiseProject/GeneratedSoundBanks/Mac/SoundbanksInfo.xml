@@ -11,10 +11,26 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1229948536" Language="SFX" Hash="3387212696">
+		<SoundBank Id="1229948536" Language="SFX" Hash="3046224877">
 			<ObjectPath>\SoundBanks\Default Work Unit\Environment</ObjectPath>
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
+			<IncludedEvents>
+				<Event Id="713430530" Name="Play_Learning_the_Basics" ObjectPath="\Events\Default Work Unit\Play_Learning_the_Basics" DurationType="OneShot" DurationMin="52.173923" DurationMax="52.173923">
+					<IncludedMemoryFiles>
+						<File Id="973058546" Language="SFX">
+							<ShortName>Learning the Basics.wav</ShortName>
+							<Path>SFX\Learning the Basics_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="973058546" Language="SFX">
+					<ShortName>Learning the Basics.wav</ShortName>
+					<Path>SFX\Learning the Basics_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
 			<ObjectPath>Init</ObjectPath>

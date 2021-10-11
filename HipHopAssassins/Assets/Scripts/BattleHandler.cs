@@ -41,7 +41,7 @@ public class BattleHandler : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.Space)) //On Space Inpute
       {
         state = State.Busy; //Change State to Busy
-        playerCharacterBattle.Attack(enemyCharacterBattle, () => //Play Attack animation
+        playerCharacterBattle.AttackRhythm(enemyCharacterBattle, () => //Play Attack animation
         {
           ChooseNextActivePlayer(); //Change State back to waiting for player once animation finishes
         });

@@ -4,7 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{F3009545-DFCB-42AE-B26C-F434129636B6}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Environment" ID="{7B20D59E-679F-422E-A57C-00327DC9E214}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Learning_the_Basics" ID="{87F291C8-0853-44FA-A6FE-24E5410DEC9A}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Learning the Basics" ID="{07B725BB-885F-4BC8-80B0-E51762702908}" WorkUnitID="{CE63CE78-2004-4C4A-81AC-D906F29A78A1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

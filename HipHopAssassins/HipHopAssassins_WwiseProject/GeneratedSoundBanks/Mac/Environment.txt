@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	713430530	Play_Learning_the_Basics			\Default Work Unit\Play_Learning_the_Basics	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	973058546	Learning the Basics	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Learning the Basics_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Learning the Basics\Learning the Basics		9203544
+
