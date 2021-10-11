@@ -8,6 +8,8 @@ public class BattleHandler : MonoBehaviour
   private CharacterBattle playerCharacterBattle;
   private CharacterBattle enemyCharacterBattle;
   private State state;
+  private CharacterBattle activeCharacterBattle;
+
 
 
   private enum State
@@ -26,6 +28,8 @@ public class BattleHandler : MonoBehaviour
   {
     playerCharacterBattle = SpawnCharacter(true);
     enemyCharacterBattle = SpawnCharacter(false);
+
+    SetActiveCharacterBattle(playerCharacterBattle);
     //Set State
     state = State.WaitingForPlayer;
   }
@@ -39,7 +43,7 @@ public class BattleHandler : MonoBehaviour
         state = State.Busy; //Change State to Busy
         playerCharacterBattle.Attack(enemyCharacterBattle, () => //Play Attack animation
         {
-          state = State.WaitingForPlayer; //Change State back to waiting for player once animation finishes
+          ChooseNextActivePlayer(); //Change State back to waiting for player once animation finishes
         });
       }
     }
@@ -61,4 +65,58 @@ public class BattleHandler : MonoBehaviour
 
     return characterbattle;
   }
+
+  private void SetActiveCharacterBattle(CharacterBattle characterbattle)
+  {
+    if (activeCharacterBattle != null)
+    {
+      activeCharacterBattle.HideSelectionCircle();
+    }
+
+    activeCharacterBattle = characterbattle;
+    activeCharacterBattle.ShowSelectionCircle();
+
+  }
+
+  private void ChooseNextActivePlayer()
+  {
+    if(TestBattleOver())
+    {
+      return;
+    }
+
+    if (activeCharacterBattle==playerCharacterBattle)
+    {
+      SetActiveCharacterBattle(enemyCharacterBattle);
+      state = State.Busy;
+
+      enemyCharacterBattle.Attack(playerCharacterBattle, () => //Play Attack animation
+      {
+        ChooseNextActivePlayer(); //Change State back to waiting for player once animation finishes
+      });
+    }
+    else
+    {
+      SetActiveCharacterBattle(playerCharacterBattle);
+      state = State.WaitingForPlayer;
+    }
+  }
+
+  private bool TestBattleOver()
+  {
+    if (playerCharacterBattle.IsDead())
+    {
+      //Player Dead, Enemy Wins
+      Debug.Log("Enemy Wins");
+      return true;
+    }
+    if (enemyCharacterBattle.IsDead())
+    {
+      //Enemy Dead, Player Wins
+      Debug.Log("Player Wins");
+      return true;
+    }
+    return false;
+  }
+
 }

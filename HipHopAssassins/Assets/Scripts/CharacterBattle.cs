@@ -10,6 +10,10 @@ public class CharacterBattle : MonoBehaviour
   private State state;
   private Vector3 slideTargetPosition;
   private Action onSlideComplete;
+  private GameObject selectionCircleGameObject;
+  private HealthSystem healthSystem;
+  public GameObject healthBarObject;
+  public GameObject thisHealthBar;
 
   private enum State
   {
@@ -23,6 +27,8 @@ public class CharacterBattle : MonoBehaviour
   {
     characterBase = GetComponent<Character_Base>();
     state = State.Idle;
+    selectionCircleGameObject = transform.Find("SelectionCircle").gameObject;
+    HideSelectionCircle();
   }
   public void Setup(bool isPlayerTeam)
   {
@@ -36,6 +42,9 @@ public class CharacterBattle : MonoBehaviour
       //Change How They Look
       gameObject.GetComponent<SpriteRenderer>().color = Color.red;
     }
+
+    healthSystem = new HealthSystem(100);
+   // thisHealthBar = Instantiate(healthBarObject, GetPosition(), Quaternion.identity);
   }
   private void Update()
   {
@@ -46,7 +55,7 @@ public class CharacterBattle : MonoBehaviour
       case State.Busy:
         break;
       case State.Sliding:
-        float slideSpeed = 10f; //Set Slide Speed
+        float slideSpeed = 5f; //Set Slide Speed
         transform.position += (slideTargetPosition - GetPosition()) * slideSpeed * Time.deltaTime; //Slide Character to whom they are attacking
 
         float reachedDistance = 1f;
@@ -64,6 +73,17 @@ public class CharacterBattle : MonoBehaviour
   {
     return transform.position;
   }
+
+  public void Damage(int damageAmount)
+  {
+    healthSystem.Damage(damageAmount);
+    Debug.Log("Hit" + healthSystem.GetHealth());
+  }
+
+  public bool IsDead()
+  {
+    return healthSystem.IsDead();
+  }
   public void Attack( CharacterBattle targetCharacterBattle, Action onAttackComplete)
   {
 
@@ -77,6 +97,7 @@ public class CharacterBattle : MonoBehaviour
       Vector3 attackdir = (targetCharacterBattle.GetPosition() - GetPosition()).normalized;
       //Play Animation using said direction
       //once attack animation finishes
+      targetCharacterBattle.Damage(10); //Target Hit
       SlideToPosition(startingPosition, () =>
       {
         //Slide Back Completed, Back to Idle
@@ -92,5 +113,15 @@ public class CharacterBattle : MonoBehaviour
     this.slideTargetPosition = slideTargetPosition;
     this.onSlideComplete = onSlideComplete;
     state = State.Sliding;
+  }
+
+  public void HideSelectionCircle()
+  {
+    selectionCircleGameObject.SetActive(false);
+  }
+
+  public void ShowSelectionCircle()
+  {
+    selectionCircleGameObject.SetActive(true);
   }
 }
