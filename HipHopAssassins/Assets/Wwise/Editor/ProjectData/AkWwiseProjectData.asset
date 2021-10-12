@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 459500f3cbdfae42b26cf434129636b6
     GuidInternal: 
-    m_lastTime: -8585676202251518965
+    m_lastTime: -8585676092088226208
     List:
     - name: Environment
       guid: 9ed5207b9f672e42a57c00327dc9e214
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 13e1d1f38c58f34496c69230f2ace555
     GuidInternal: 
-    m_lastTime: -8585676202251369369
+    m_lastTime: -8585676092087956948
     List:
     - name: Play_Learning_the_Basics
       guid: c891f2875308fa44a6fe24e5410dec9a
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 52.173923
       minDuration: 52.173923
+    - name: Play_SwordSheath
+      guid: c180ee51c3795340bd8c4f257751a984
+      id: 3887763866
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_SwordSheath
+        ObjectType: 3
+        guid: c180ee51c3795340bd8c4f257751a984
+      Path: Events\Default Work Unit\Play_SwordSheath
+      maxAttenuation: 0
+      maxDuration: 1.661821
+      minDuration: 1.375
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +187,7 @@ MonoBehaviour:
     m_lastTime: -8585676948481352702
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

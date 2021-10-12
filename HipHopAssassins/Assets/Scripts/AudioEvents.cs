@@ -21,6 +21,11 @@ public class AudioEvents : MonoBehaviour
   private bool playerReady = false;
   private bool musicReady = false;
   private bool isMusicMuted = false;
+  //Timing
+  public int[] songTiming;
+  public int currentBar= GlobalVariables.currentBar;
+  public int currentBeat= GlobalVariables.currentBeat;
+  public int currentGrid= GlobalVariables.currentGrid;
 
   //id of the wwise event - using this to get the playback position
   static uint playingID;
@@ -29,6 +34,14 @@ public class AudioEvents : MonoBehaviour
   {
     playingID = rhythmHeckinEvent.Post(gameObject, (uint)(AkCallbackType.AK_MusicSyncAll | AkCallbackType.AK_EnableGetMusicPlayPosition), MusicCallbackFunction);
   }
+
+  private void Update()
+  {
+    currentBar = GlobalVariables.currentBar;
+    currentBeat = GlobalVariables.currentBeat;
+    currentGrid = GlobalVariables.currentGrid;
+  }
+
   public void EndAudio()
   {
     //End All Audio
@@ -104,6 +117,45 @@ public class AudioEvents : MonoBehaviour
 
   }
 
+  public void IncreaseBar()
+  {
+    if(GlobalVariables.currentBar <4)//Insert Time Signature
+    {
+      GlobalVariables.currentBar += 1;
+    }
+    else
+    {
+      GlobalVariables.currentBar = 1;
+    }
+      
+  }
+
+  public void IncreaseBeat()
+  {
+    if (GlobalVariables.currentBeat < 4)//Insert Time Signature
+    {
+      GlobalVariables.currentBeat += 1;
+    }
+    else
+    {
+      GlobalVariables.currentBeat = 1;
+    }
+
+  }
+
+  public void IncreaseGrid()
+  {
+    if (GlobalVariables.currentGrid < 4)//Insert Time Signature
+    {
+      GlobalVariables.currentGrid += 1;
+    }
+    else
+    {
+      GlobalVariables.currentGrid = 1;
+    }
+
+  }
+
 
   public void CustomCues(string cueName, AkMusicSyncCallbackInfo _musicInfo)
   {
@@ -151,4 +203,13 @@ public class AudioEvents : MonoBehaviour
   {
     playerReady = true;
   }
+
+
+}
+
+public static class GlobalVariables
+{
+  public static int currentBar;
+  public static int currentBeat;
+  public static int currentGrid;
 }

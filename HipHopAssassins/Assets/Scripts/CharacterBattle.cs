@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
+using EZCameraShake;
 public class CharacterBattle : MonoBehaviour
 {
 
@@ -18,13 +18,22 @@ public class CharacterBattle : MonoBehaviour
   private Action currentAction;
   private int attacksRemaining;
   private Vector3 startingPosition;
+  private bool secondBeatPlayed = false;
+  private int attackPattern = 1;
+  private int currentBeat;
+  private int savedBeat;
 
+
+  [SerializeField] private GameObject enemyHitParticle;
+  [SerializeField] private GameObject playerHitParticle;
+  [SerializeField] private Sprite[] spriteArray;
   private enum State
   {
     Idle,
     Sliding,
     Busy,
     Rhythm,
+    Attacking,
   }
 
 
@@ -40,12 +49,12 @@ public class CharacterBattle : MonoBehaviour
     if (isPlayerTeam)
     {
       //Change How they Look
-      gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
+      gameObject.GetComponent<SpriteRenderer>().color = Color.magenta;
     }
     else
     {
       //Change How They Look
-      gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+      gameObject.GetComponent<SpriteRenderer>().sprite = spriteArray[1];
     }
 
     healthSystem = new HealthSystem(100);
@@ -70,6 +79,22 @@ public class CharacterBattle : MonoBehaviour
       case State.Idle:
         break;
       case State.Busy:
+        if (savedBeat==currentBeat) 
+        {
+          //Play Animation using said direction
+          //once attack animation finishes
+          currentTarget.Damage(10); //Target Hit
+          CameraShaker.Instance.ShakeOnce(10f, 6f, .1f, .1f);
+          Instantiate(playerHitParticle, currentTarget.GetPosition(), Quaternion.identity);
+          AkSoundEngine.PostEvent("Play_Hit", gameObject);
+          SlideToPosition(startingPosition, () =>
+          {
+            //Slide Back Completed, Back to Idle
+            state = State.Idle;
+            currentAction();
+          });
+        }
+        currentBeat = GlobalVariables.currentBeat;
         break;
       case State.Sliding:
         float slideSpeed = 10f; //Set Slide Speed
@@ -84,15 +109,26 @@ public class CharacterBattle : MonoBehaviour
         }
         break;
       case State.Rhythm:
+        if(GlobalVariables.currentBeat == 2 && secondBeatPlayed==false) 
+        { 
+          AkSoundEngine.PostEvent("Play_SwordSheath", gameObject);
+          secondBeatPlayed = true;
+          state = State.Attacking;
+        }
+     
+          break;
+      case State.Attacking:
+
         //Track Players Rhythm
         if (Input.GetKeyDown(KeyCode.Space)) //On Space Inpute
         {
-          if (attacksRemaining>0)
+          if (attacksRemaining > 0)
           {
             //Debug.Log("Player Attacked");
             //Play Animation using said direction
             //once attack animation finishes
             PerformAttack(currentTarget);
+
           }
           else
           {
@@ -101,12 +137,30 @@ public class CharacterBattle : MonoBehaviour
               //Slide Back Completed, Back to Idle
               state = State.Idle;
               currentAction();
+              secondBeatPlayed = false;
             });
           }
 
         }
-          break;
 
+        //If the measure ends, kick them off combat
+        if (GlobalVariables.currentBeat == 4 && GlobalVariables.currentGrid == 4)
+        {
+          attacksRemaining = 0;
+          SlideToPosition(startingPosition, () =>
+          {
+            //Slide Back Completed, Back to Idle
+            state = State.Idle;
+            currentAction();
+            secondBeatPlayed = false;
+          });
+        }
+        break;
+    }
+
+    if(healthSystem.GetHealth()==0)
+    {
+      Destroy(gameObject);
     }
   }
   public Vector3 GetPosition()
@@ -137,7 +191,7 @@ public class CharacterBattle : MonoBehaviour
       state = State.Rhythm;
       Vector3 attackdir = (targetCharacterBattle.GetPosition() - GetPosition()).normalized;
       currentTarget = targetCharacterBattle;
-      attacksRemaining = 3; //Set Maximum amount of attacks
+      attacksRemaining = 2; //Set Maximum amount of attacks
       currentAction = onAttackComplete;
     });
   }
@@ -146,35 +200,66 @@ public class CharacterBattle : MonoBehaviour
   {
 
     Vector3 slideTargetPosition = targetCharacterBattle.GetPosition() + (GetPosition() - targetCharacterBattle.GetPosition().normalized * 10f); //Place the character offset the target
+    savedBeat = GlobalVariables.currentBeat;
     //Vector3 startingPosition = GetPosition();
     //Slide to Target
     SlideToPosition(targetCharacterBattle.GetPosition(), () =>
     {
       Debug.Log(targetCharacterBattle);
+      currentBeat = 10;
       //Arrived At Target Attack
       state = State.Busy;
       Vector3 attackdir = (targetCharacterBattle.GetPosition() - GetPosition()).normalized;
-      //Play Animation using said direction
-      //once attack animation finishes
-      //targetCharacterBattle.Damage(10); //Target Hit
 
-      SlideToPosition(startingPosition, () =>
-      {
-        //Slide Back Completed, Back to Idle
-        state = State.Idle;
-        onAttackComplete();
-      });
-      
+      currentTarget = targetCharacterBattle;
+      currentAction = onAttackComplete;
     });
   }
-
+  
   public void PerformAttack(CharacterBattle targetCharacterBattle)
   {
       //Vector3 attackdir = (targetCharacterBattle.GetPosition() - GetPosition()).normalized;
       //Play Animation using said direction
       //once attack animation finishes
-      targetCharacterBattle.Damage(10); //Target Hit
-      attacksRemaining -= 1;
+      //Attack Pattern 1
+      if (attackPattern==1)
+      {
+      
+        if(attacksRemaining==2)
+        {
+          if(GlobalVariables.currentBeat == 3 && (GlobalVariables.currentGrid == 1 || GlobalVariables.currentGrid == 2))
+          {
+          targetCharacterBattle.Damage(20); //Target Hit
+          Instantiate(enemyHitParticle, targetCharacterBattle.GetPosition(), Quaternion.identity);
+          AkSoundEngine.PostEvent("Play_SwordHit", gameObject);
+          CameraShaker.Instance.ShakeOnce(10f, 6f, .1f, .1f);
+
+        }
+        else
+        {
+          AkSoundEngine.PostEvent("Play_SwordSwing", gameObject);
+          
+        }
+        
+      }
+      else if(attacksRemaining == 1)
+      {
+        if (GlobalVariables.currentBeat == 4 && (GlobalVariables.currentGrid == 1 || GlobalVariables.currentGrid == 2))
+        {
+          targetCharacterBattle.Damage(20); //Target Hit
+          Instantiate(enemyHitParticle, targetCharacterBattle.GetPosition(), Quaternion.identity);
+          AkSoundEngine.PostEvent("Play_SwordHit", gameObject);
+          CameraShaker.Instance.ShakeOnce(10f, 6f, .1f, .1f);
+        }
+        else
+        {
+          AkSoundEngine.PostEvent("Play_SwordSwing", gameObject);
+        }
+        
+      }
+    }
+    
+    attacksRemaining -= 1;
   }
 
 

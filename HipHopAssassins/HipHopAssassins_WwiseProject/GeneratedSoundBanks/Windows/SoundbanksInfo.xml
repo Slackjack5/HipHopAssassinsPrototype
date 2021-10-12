@@ -11,16 +11,56 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1229948536" Language="SFX" Hash="3046224877">
+		<SoundBank Id="1229948536" Language="SFX" Hash="2212503187">
 			<ObjectPath>\SoundBanks\Default Work Unit\Environment</ObjectPath>
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2984103440" Name="Play_Grunt" ObjectPath="\Events\Default Work Unit\Play_Grunt" DurationType="OneShot" DurationMin="0.419329" DurationMax="0.464469">
+					<IncludedMemoryFiles>
+						<File Id="807475589" Language="SFX">
+							<ShortName>ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03.wav</ShortName>
+							<Path>SFX\ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2960666077" Name="Play_Hit" ObjectPath="\Events\Default Work Unit\Play_Hit" DurationType="OneShot" DurationMin="0.356839" DurationMax="0.425092">
+					<IncludedMemoryFiles>
+						<File Id="204746283" Language="SFX">
+							<ShortName>ImpactPunchFace_S011IM.294.wav</ShortName>
+							<Path>SFX\ImpactPunchFace_S011IM.294_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="713430530" Name="Play_Learning_the_Basics" ObjectPath="\Events\Default Work Unit\Play_Learning_the_Basics" DurationType="OneShot" DurationMin="52.173923" DurationMax="52.173923">
 					<IncludedMemoryFiles>
 						<File Id="973058546" Language="SFX">
 							<ShortName>Learning the Basics.wav</ShortName>
 							<Path>SFX\Learning the Basics_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="598714956" Name="Play_SwordHit" ObjectPath="\Events\Default Work Unit\Play_SwordHit" DurationType="OneShot" DurationMin="0.335271" DurationMax="0.335271">
+					<IncludedMemoryFiles>
+						<File Id="477111095" Language="SFX">
+							<ShortName>ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack.wav</ShortName>
+							<Path>SFX\ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3887763866" Name="Play_SwordSheath" ObjectPath="\Events\Default Work Unit\Play_SwordSheath" DurationType="OneShot" DurationMin="1.375000" DurationMax="1.661821">
+					<IncludedMemoryFiles>
+						<File Id="430554294" Language="SFX">
+							<ShortName>ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet.wav</ShortName>
+							<Path>SFX\ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1746766985" Name="Play_SwordSwing" ObjectPath="\Events\Default Work Unit\Play_SwordSwing" DurationType="OneShot" DurationMin="0.552471" DurationMax="0.620845">
+					<IncludedMemoryFiles>
+						<File Id="989757491" Language="SFX">
+							<ShortName>foley17.wav</ShortName>
+							<Path>SFX\foley17_0CD05F8E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

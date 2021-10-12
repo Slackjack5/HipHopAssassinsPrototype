@@ -9,6 +9,8 @@ public class BattleHandler : MonoBehaviour
   private CharacterBattle enemyCharacterBattle;
   private State state;
   private CharacterBattle activeCharacterBattle;
+  public Texture2D enemyTexture;
+  public Texture2D PlayerTexture;
 
 
 
@@ -38,9 +40,10 @@ public class BattleHandler : MonoBehaviour
   {
     if(state==State.WaitingForPlayer) //If We are in Waiting for Player State
     {
-      if (Input.GetKeyDown(KeyCode.Space)) //On Space Inpute
+      if (Input.GetKeyDown(KeyCode.Space) && GlobalVariables.currentBeat==1) //On Space Input and is on First Beat
       {
         state = State.Busy; //Change State to Busy
+        AkSoundEngine.PostEvent("Play_Grunt", gameObject);
         playerCharacterBattle.AttackRhythm(enemyCharacterBattle, () => //Play Attack animation
         {
           ChooseNextActivePlayer(); //Change State back to waiting for player once animation finishes
@@ -114,6 +117,13 @@ public class BattleHandler : MonoBehaviour
     {
       //Enemy Dead, Player Wins
       Debug.Log("Player Wins");
+
+      enemyCharacterBattle = SpawnCharacter(false);
+
+      SetActiveCharacterBattle(playerCharacterBattle);
+      //Set State
+      state = State.WaitingForPlayer;
+
       return true;
     }
     return false;

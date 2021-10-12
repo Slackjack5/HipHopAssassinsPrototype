@@ -13,7 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_GRUNT = 2984103440U;
+        static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LEARNING_THE_BASICS = 713430530U;
+        static const AkUniqueID PLAY_SWORDHIT = 598714956U;
+        static const AkUniqueID PLAY_SWORDSHEATH = 3887763866U;
+        static const AkUniqueID PLAY_SWORDSWING = 1746766985U;
     } // namespace EVENTS
 
     namespace BANKS

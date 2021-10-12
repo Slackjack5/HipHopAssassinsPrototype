@@ -1,4 +1,5 @@
 using System;
+
 public class HealthSystem 
 {
 
@@ -21,6 +22,8 @@ public class HealthSystem
   {
     return (float)health / healthMax;
   }
+
+  
   public void Damage(int damageAmount)
   {
     health -= damageAmount;

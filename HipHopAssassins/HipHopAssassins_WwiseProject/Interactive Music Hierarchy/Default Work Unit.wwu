@@ -15,12 +15,13 @@
 					<ChildrenList>
 						<MusicSegment Name="Learning the Basics" ID="{07B725BB-885F-4BC8-80B0-E51762702908}" ShortID="224030892">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="52173.9229024943"/>
+								<Property Name="EndPosition" Type="Real64" Value="55304.357685103"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="64"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="115"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -68,7 +69,6 @@
 																		<MusicClip Name="Learning the Basics" ID="{19553DB2-3009-47E3-B0F6-503E2D5901BD}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="52173.9229024943"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Learning the Basics" ID="{F7AE22DF-B4EB-4580-80B6-6A5307EF0C80}"/>
@@ -88,7 +88,11 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{9DE26F60-59DD-42BA-9BDA-058EABB27142}"/>
+											<MusicCue Name="Entry Cue" ID="{9DE26F60-59DD-42BA-9BDA-058EABB27142}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="1043.47826086957"/>
+												</PropertyList>
+											</MusicCue>
 										</Local>
 									</Reference>
 									<Reference>

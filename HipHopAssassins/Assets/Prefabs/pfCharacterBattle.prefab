@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: d8bd2557dc3d6be4eae04a39a5276ea3, type: 3}
-  m_Color: {r: 0.3820755, g: 1, b: 0.69366527, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,6 +99,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBarObject: {fileID: 4574397216773630770, guid: 80ad4dd4eba56d8458d4463bd654eb37, type: 3}
+  enemyHitParticle: {fileID: 2971871711229402459, guid: 15bd2eeb781cdc5488adbbc5715a3210, type: 3}
+  playerHitParticle: {fileID: 2971871711229402459, guid: aba5344b7c547884b825b00855339622, type: 3}
+  spriteArray:
+  - {fileID: 21300000, guid: 716c1016c7bd66844a6a5a6a0c7b81b5, type: 3}
+  - {fileID: 21300000, guid: 5265d233c8e64044f826f4d53cc63a39, type: 3}
 --- !u!114 &7950667007557395281
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,6 +1,282 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="SwordSheath" ID="{52748C80-C0EB-4513-BA55-E5C5B3226C0E}" ShortID="544375720">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet" ID="{AEDF7F8D-52B4-480B-8E39-146D320DCB4A}" ShortID="612435391">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ADCE07AC-8094-40AA-A402-3BFBAC291F92}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-328"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet" ID="{DC181C6E-706A-41F9-827A-053B79919864}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="430554294"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet" ID="{DC181C6E-706A-41F9-827A-053B79919864}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ESM_Game_Sword_Unsheathe_Withdraw_Sharpen_Knife_Swipe_Metal_Battle_Duel" ID="{D6DE2D48-48F6-462E-A2E1-4D396D9AFE08}" ShortID="70319442">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Game_Sword_Unsheathe_Withdraw_Sharpen_Knife_Swipe_Metal_Battle_Duel" ID="{17AA8D41-9532-4967-8629-39117F0D8EF4}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Game_Sword_Unsheathe_Withdraw_Sharpen_Knife_Swipe_Metal_Battle_Duel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="691969499"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Game_Sword_Unsheathe_Withdraw_Sharpen_Knife_Swipe_Metal_Battle_Duel" ID="{17AA8D41-9532-4967-8629-39117F0D8EF4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SwordSwing" ID="{EA23E1AF-0349-4A46-B5AE-E504CCAA5549}" ShortID="1059186733">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2FD97F6E-C46C-4A24-B9C1-E1CEDBEF0BB3}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-202"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="foley17" ID="{340CA71E-0AE4-45E8-9C06-5DC8E8946DC0}" ShortID="611686112">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="foley17" ID="{7719ACAA-E702-4D28-8D2C-431DA18E84E8}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.167799358974359"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>foley17.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="989757491"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="foley17" ID="{7719ACAA-E702-4D28-8D2C-431DA18E84E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SwordHit" ID="{7DDB136C-D860-4658-A7F1-F4C9CD20336C}" ShortID="9045822">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack" ID="{137725F0-DE9E-4345-9519-30687A5D4E6D}" ShortID="228876889">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack" ID="{FA6CE7E3-47BE-4B24-BF46-94D15C9F1A1A}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477111095"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack" ID="{FA6CE7E3-47BE-4B24-BF46-94D15C9F1A1A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Grunt" ID="{D975261C-8BC0-4093-BA4F-9946E501A653}" ShortID="462230282">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03" ID="{C3025195-95DA-452F-875C-7C096A503E83}" ShortID="351579286">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1D4CD931-4C8E-4A98-ACB9-97D5A616E594}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="177"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03" ID="{97A02AE1-FF26-48AC-A2B4-25FF0516967A}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="807475589"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03" ID="{97A02AE1-FF26-48AC-A2B4-25FF0516967A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Hit" ID="{859BDD96-7A50-4647-9F4B-71B5A766D4D5}" ShortID="205742419">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>730</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{48E1DB05-01CA-42BD-9B96-46C9504AC7B4}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-303"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ImpactPunchFace_S011IM_294" ID="{7D6EC32A-4866-4987-8C68-6F4298EBE66D}" ShortID="766884002">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ImpactPunchFace_S011IM_294" ID="{D31139B0-C367-42E2-973F-1DA117FD3FA9}">
+									<Language>SFX</Language>
+									<AudioFile>ImpactPunchFace_S011IM.294.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="204746283"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ImpactPunchFace_S011IM_294" ID="{D31139B0-C367-42E2-973F-1DA117FD3FA9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

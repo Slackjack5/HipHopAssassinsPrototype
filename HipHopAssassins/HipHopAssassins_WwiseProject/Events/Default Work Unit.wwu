@@ -14,6 +14,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SwordSheath" ID="{51EE80C1-79C3-4053-BD8C-4F257751A984}">
+					<ChildrenList>
+						<Action Name="" ID="{CE4AABD8-7BF5-4955-89C6-4DE21F2B20D7}" ShortID="28153529">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwordSheath" ID="{52748C80-C0EB-4513-BA55-E5C5B3226C0E}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwordHit" ID="{EC968B0F-4B7C-4F35-9BF8-060C91081650}">
+					<ChildrenList>
+						<Action Name="" ID="{149B3821-F10B-47F0-BC35-3BAEDBF8F41F}" ShortID="409040576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwordHit" ID="{7DDB136C-D860-4658-A7F1-F4C9CD20336C}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwordSwing" ID="{19FC3F23-A689-4BC7-AD6B-41BE99F203FF}">
+					<ChildrenList>
+						<Action Name="" ID="{CD95B289-D6B4-428D-B228-4E9F8648146C}" ShortID="288402807">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwordSwing" ID="{EA23E1AF-0349-4A46-B5AE-E504CCAA5549}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grunt" ID="{AF048D6C-7853-4061-9613-6C32C2E555D4}">
+					<ChildrenList>
+						<Action Name="" ID="{A65DC967-A45D-4365-85AB-8755C0C61BEB}" ShortID="937598157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grunt" ID="{D975261C-8BC0-4093-BA4F-9946E501A653}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hit" ID="{4BCCE775-9CC7-48C1-A7FA-7D9828EE8B4C}">
+					<ChildrenList>
+						<Action Name="" ID="{8FDCEE89-C536-439C-9809-5F9A320E2312}" ShortID="480524797">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit" ID="{859BDD96-7A50-4647-9F4B-71B5A766D4D5}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
