@@ -69,6 +69,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_HipHop" ID="{C3F8DB9C-FBF0-4C69-9E63-1766487FB8BA}">
+					<ChildrenList>
+						<Action Name="" ID="{EA50BFC5-8019-41F2-85CE-CE0AC949135A}" ShortID="210521016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HipHop" ID="{1E2D0519-83E7-4B62-B9E6-A1A0AAD8934B}" WorkUnitID="{CE63CE78-2004-4C4A-81AC-D906F29A78A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{2A33C25C-0B28-4163-A0DA-80EA1BC270F0}">
+					<ChildrenList>
+						<Action Name="" ID="{CE156BDB-4536-4E4B-9172-6DB6718A12E3}" ShortID="378578382">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{89F91F6E-AD9E-4205-8A47-84EC85FFCDB0}" WorkUnitID="{CE63CE78-2004-4C4A-81AC-D906F29A78A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Beep" ID="{52DBC640-AAB0-49CD-87C9-EFF457967461}">
+					<ChildrenList>
+						<Action Name="" ID="{AB73F306-FD1B-410C-9DD2-7EB0536D10AE}" ShortID="90708288">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RhythmBeep" ID="{54E62E8F-C7EE-47B5-9C9C-49F2DC37D1A8}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RBeep" ID="{9D65FA0E-A34E-4C27-BC4A-918ED6B50E83}">
+					<ChildrenList>
+						<Action Name="" ID="{EEF60FD5-76F4-4A34-9A8A-D57A141263BA}" ShortID="439155685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RhythmBeep" ID="{54E62E8F-C7EE-47B5-9C9C-49F2DC37D1A8}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

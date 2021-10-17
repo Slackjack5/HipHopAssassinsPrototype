@@ -9,6 +9,7 @@ public class AudioEvents : MonoBehaviour
   public AK.Wwise.Event rhythmHeckinEvent;
   public UnityEvent OnLevelEnded;
   [HideInInspector] public static float secondsPerBeat;
+  [HideInInspector] public static float secondsPerBar;
   [HideInInspector] public static float BPM;
   public UnityEvent OnEveryGrid;
   public UnityEvent OnEveryBeat;
@@ -23,9 +24,10 @@ public class AudioEvents : MonoBehaviour
   private bool isMusicMuted = false;
   //Timing
   public int[] songTiming;
-  public int currentBar= GlobalVariables.currentBar;
-  public int currentBeat= GlobalVariables.currentBeat;
-  public int currentGrid= GlobalVariables.currentGrid;
+  [HideInInspector]public int currentBar= GlobalVariables.currentBar;
+  [HideInInspector] public int currentBeat= GlobalVariables.currentBeat;
+  [HideInInspector] public int currentGrid= GlobalVariables.currentGrid;
+  public bool gameStarted = GlobalVariables.gameStarted;
 
   //id of the wwise event - using this to get the playback position
   static uint playingID;
@@ -33,6 +35,7 @@ public class AudioEvents : MonoBehaviour
   private void Start()
   {
     playingID = rhythmHeckinEvent.Post(gameObject, (uint)(AkCallbackType.AK_MusicSyncAll | AkCallbackType.AK_EnableGetMusicPlayPosition), MusicCallbackFunction);
+    GlobalVariables.gameStarted = false;
   }
 
   private void Update()
@@ -40,6 +43,7 @@ public class AudioEvents : MonoBehaviour
     currentBar = GlobalVariables.currentBar;
     currentBeat = GlobalVariables.currentBeat;
     currentGrid = GlobalVariables.currentGrid;
+
   }
 
   public void EndAudio()
@@ -91,8 +95,8 @@ public class AudioEvents : MonoBehaviour
         CustomCues(_musicInfo.userCueName, _musicInfo);
 
         secondsPerBeat = _musicInfo.segmentInfo_fBeatDuration;
+        secondsPerBar = _musicInfo.segmentInfo_fBarDuration;
         BPM = _musicInfo.segmentInfo_fBeatDuration * 60f;
-
         break;
       case AkCallbackType.AK_MusicSyncBeat:
 
@@ -101,9 +105,11 @@ public class AudioEvents : MonoBehaviour
         break;
       case AkCallbackType.AK_MusicSyncBar:
         //I want to make sure that the secondsPerBeat is defined on our first measure.
+        if (GlobalVariables.gameStarted == false) { GlobalVariables.gameStarted = true; } //If the game hasn't started yet, start it on beat 1
         secondsPerBeat = _musicInfo.segmentInfo_fBeatDuration;
+        secondsPerBar = _musicInfo.segmentInfo_fBarDuration;
+        Debug.Log("Seconds Per Bar: " + secondsPerBar);
         Debug.Log("Seconds Per Beat: " + secondsPerBeat);
-
         OnEveryBar.Invoke();
         break;
 
@@ -212,4 +218,5 @@ public static class GlobalVariables
   public static int currentBar;
   public static int currentBeat;
   public static int currentGrid;
+  public static bool gameStarted;
 }

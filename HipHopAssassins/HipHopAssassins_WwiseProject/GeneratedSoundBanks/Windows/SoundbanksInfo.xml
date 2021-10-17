@@ -11,16 +11,32 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1229948536" Language="SFX" Hash="2212503187">
+		<SoundBank Id="1229948536" Language="SFX" Hash="3507900202">
 			<ObjectPath>\SoundBanks\Default Work Unit\Environment</ObjectPath>
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2063165418" Name="Play_Beep" ObjectPath="\Events\Default Work Unit\Play_Beep" DurationType="OneShot" DurationMin="0.269002" DurationMax="0.269002">
+					<IncludedMemoryFiles>
+						<File Id="679869301" Language="SFX">
+							<ShortName>OS_TD_Beep_Perc.wav</ShortName>
+							<Path>SFX\OS_TD_Beep_Perc_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2984103440" Name="Play_Grunt" ObjectPath="\Events\Default Work Unit\Play_Grunt" DurationType="OneShot" DurationMin="0.419329" DurationMax="0.464469">
 					<IncludedMemoryFiles>
 						<File Id="807475589" Language="SFX">
 							<ShortName>ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03.wav</ShortName>
 							<Path>SFX\ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3893678178" Name="Play_HipHop" ObjectPath="\Events\Default Work Unit\Play_HipHop" DurationType="OneShot" DurationMin="244.546997" DurationMax="244.546997">
+					<IncludedMemoryFiles>
+						<File Id="314314011" Language="SFX">
+							<ShortName>SampleHipHopTrack100BPM.wav</ShortName>
+							<Path>SFX\SampleHipHopTrack100BPM_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -40,6 +56,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="OneShot" DurationMin="244.546997" DurationMax="244.546997">
+					<IncludedMemoryFiles>
+						<File Id="314314011" Language="SFX">
+							<ShortName>SampleHipHopTrack100BPM.wav</ShortName>
+							<Path>SFX\SampleHipHopTrack100BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="973058546" Language="SFX">
+							<ShortName>Learning the Basics.wav</ShortName>
+							<Path>SFX\Learning the Basics_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1215259416" Name="Play_RBeep" ObjectPath="\Events\Default Work Unit\Play_RBeep" DurationType="OneShot" DurationMin="0.269002" DurationMax="0.269002"/>
 				<Event Id="598714956" Name="Play_SwordHit" ObjectPath="\Events\Default Work Unit\Play_SwordHit" DurationType="OneShot" DurationMin="0.335271" DurationMax="0.335271">
 					<IncludedMemoryFiles>
 						<File Id="477111095" Language="SFX">
@@ -66,6 +95,10 @@
 				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="679869301" Language="SFX">
+					<ShortName>OS_TD_Beep_Perc.wav</ShortName>
+					<Path>SFX\OS_TD_Beep_Perc_10C4C929.wem</Path>
+				</File>
 				<File Id="973058546" Language="SFX">
 					<ShortName>Learning the Basics.wav</ShortName>
 					<Path>SFX\Learning the Basics_D79FB2B7.wem</Path>

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 459500f3cbdfae42b26cf434129636b6
     GuidInternal: 
-    m_lastTime: -8585676092088226208
+    m_lastTime: -8585671050053022635
     List:
     - name: Environment
       guid: 9ed5207b9f672e42a57c00327dc9e214
@@ -94,8 +94,76 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 13e1d1f38c58f34496c69230f2ace555
     GuidInternal: 
-    m_lastTime: -8585676092087956948
+    m_lastTime: -8585671050052703573
     List:
+    - name: Play_Beep
+      guid: 40c6db52b0aacd4987c9eff457967461
+      id: 2063165418
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Beep
+        ObjectType: 3
+        guid: 40c6db52b0aacd4987c9eff457967461
+      Path: Events\Default Work Unit\Play_Beep
+      maxAttenuation: 0
+      maxDuration: 0.269002
+      minDuration: 0.269002
+    - name: Play_Grunt
+      guid: 6c8d04af5378614096136c32c2e555d4
+      id: 2984103440
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Grunt
+        ObjectType: 3
+        guid: 6c8d04af5378614096136c32c2e555d4
+      Path: Events\Default Work Unit\Play_Grunt
+      maxAttenuation: 0
+      maxDuration: 0.464469
+      minDuration: 0.419329
+    - name: Play_HipHop
+      guid: 9cdbf8c3f0fb694c9e631766487fb8ba
+      id: 3893678178
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_HipHop
+        ObjectType: 3
+        guid: 9cdbf8c3f0fb694c9e631766487fb8ba
+      Path: Events\Default Work Unit\Play_HipHop
+      maxAttenuation: 0
+      maxDuration: 244.547
+      minDuration: 244.547
+    - name: Play_Hit
+      guid: 75e7cc4bc79cc148a7fa7d9828ee8b4c
+      id: 2960666077
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Hit
+        ObjectType: 3
+        guid: 75e7cc4bc79cc148a7fa7d9828ee8b4c
+      Path: Events\Default Work Unit\Play_Hit
+      maxAttenuation: 0
+      maxDuration: 0.425092
+      minDuration: 0.356839
     - name: Play_Learning_the_Basics
       guid: c891f2875308fa44a6fe24e5410dec9a
       id: 713430530
@@ -113,6 +181,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 52.173923
       minDuration: 52.173923
+    - name: Play_Music
+      guid: 5cc2332a280b6341a0da80ea1bc270f0
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: 5cc2332a280b6341a0da80ea1bc270f0
+      Path: Events\Default Work Unit\Play_Music
+      maxAttenuation: 0
+      maxDuration: 244.547
+      minDuration: 244.547
+    - name: Play_SwordHit
+      guid: 0f8b96ec7c4b354f9bf8060c91081650
+      id: 598714956
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_SwordHit
+        ObjectType: 3
+        guid: 0f8b96ec7c4b354f9bf8060c91081650
+      Path: Events\Default Work Unit\Play_SwordHit
+      maxAttenuation: 0
+      maxDuration: 0.335271
+      minDuration: 0.335271
     - name: Play_SwordSheath
       guid: c180ee51c3795340bd8c4f257751a984
       id: 3887763866
@@ -130,6 +232,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.661821
       minDuration: 1.375
+    - name: Play_SwordSwing
+      guid: 233ffc1989a6c74bad6b41be99f203ff
+      id: 1746766985
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_SwordSwing
+        ObjectType: 3
+        guid: 233ffc1989a6c74bad6b41be99f203ff
+      Path: Events\Default Work Unit\Play_SwordSwing
+      maxAttenuation: 0
+      maxDuration: 0.620845
+      minDuration: 0.552471
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -187,7 +306,7 @@ MonoBehaviour:
     m_lastTime: -8585676948481352702
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d0000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

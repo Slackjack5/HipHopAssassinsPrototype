@@ -276,6 +276,42 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RhythmBeep" ID="{54E62E8F-C7EE-47B5-9C9C-49F2DC37D1A8}" ShortID="12837166">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="OS_TD_Beep_Perc" ID="{820BBC3F-0DF6-4D68-9077-87BA2E892FBE}" ShortID="667424429">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OS_TD_Beep_Perc" ID="{B7037850-4D75-4DC4-BAFE-D07F15405298}">
+									<Language>SFX</Language>
+									<AudioFile>OS_TD_Beep_Perc.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="679869301"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="OS_TD_Beep_Perc" ID="{B7037850-4D75-4DC4-BAFE-D07F15405298}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -13,9 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BEEP = 2063165418U;
         static const AkUniqueID PLAY_GRUNT = 2984103440U;
+        static const AkUniqueID PLAY_HIPHOP = 3893678178U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LEARNING_THE_BASICS = 713430530U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_RBEEP = 1215259416U;
         static const AkUniqueID PLAY_SWORDHIT = 598714956U;
         static const AkUniqueID PLAY_SWORDSHEATH = 3887763866U;
         static const AkUniqueID PLAY_SWORDSWING = 1746766985U;

@@ -70,53 +70,53 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1956}
+      Script: {instanceID: 1998}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2298}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3050}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3256}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3282}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 3560}
+      Script: {instanceID: 3580}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3686}
     - Class: 114
-      Script: {instanceID: 3824}
+      Script: {instanceID: 3842}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3920}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 4114}
     - Class: 114
-      Script: {instanceID: 4252}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4708}
     - Class: 114
-      Script: {instanceID: 4696}
+      Script: {instanceID: 4712}
     - Class: 114
-      Script: {instanceID: 4774}
+      Script: {instanceID: 4790}
     - Class: 114
-      Script: {instanceID: 5686}
+      Script: {instanceID: 5018}
     - Class: 114
-      Script: {instanceID: 6502}
+      Script: {instanceID: 5694}
     - Class: 114
-      Script: {instanceID: 28668}
+      Script: {instanceID: 5936}
     - Class: 114
-      Script: {instanceID: 30894}
+      Script: {instanceID: 6506}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1022,6 +1022,12 @@ ScriptsOnlyBuild:
     className: CinemachineTrackedDolly
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyParticles
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: AK.Wwise.Unity.Timeline.dll
     namespaceName: 
@@ -1220,6 +1226,12 @@ ScriptsOnlyBuild:
     className: AkTriggerEnable
   - hash:
       serializedVersion: 2
+      Hash: 93e772fe6f5953c94e18736377664600
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BeatCounter
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1350,18 +1362,6 @@ ScriptsOnlyBuild:
     assemblyName: AK.Wwise.Unity.Timeline.dll
     namespaceName: 
     className: AkRTPCPlayable
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DestroyParticles
-  - hash:
-      serializedVersion: 2
-      Hash: 93e772fe6f5953c94e18736377664600
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BeatCounter
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

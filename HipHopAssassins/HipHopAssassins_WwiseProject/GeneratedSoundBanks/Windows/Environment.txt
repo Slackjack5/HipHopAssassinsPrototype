@@ -1,15 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
 	598714956	Play_SwordHit			\Default Work Unit\Play_SwordHit	
 	713430530	Play_Learning_the_Basics			\Default Work Unit\Play_Learning_the_Basics	
+	1215259416	Play_RBeep			\Default Work Unit\Play_RBeep	
 	1746766985	Play_SwordSwing			\Default Work Unit\Play_SwordSwing	
+	2063165418	Play_Beep			\Default Work Unit\Play_Beep	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	2960666077	Play_Hit			\Default Work Unit\Play_Hit	
 	2984103440	Play_Grunt			\Default Work Unit\Play_Grunt	
 	3887763866	Play_SwordSheath			\Default Work Unit\Play_SwordSheath	
+	3893678178	Play_HipHop			\Default Work Unit\Play_HipHop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	204746283	ImpactPunchFace_S011IM_294	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\ImpactPunchFace_S011IM.294_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hit\ImpactPunchFace_S011IM_294		104512
+	314314011	SampleHipHopTrack100BPM	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\SampleHipHopTrack100BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\HipHop\SampleHipHopTrack100BPM		47110196
 	430554294	ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwordSheath\ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet		264064
 	477111095	ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwordHit\ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack		64436
+	679869301	OS_TD_Beep_Perc	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\OS_TD_Beep_Perc_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RhythmBeep\OS_TD_Beep_Perc		47596
 	807475589	ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunt\ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03		89240
 	973058546	Learning the Basics	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\Learning the Basics_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Learning the Basics\Learning the Basics		9203544
 	989757491	foley17	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Windows\SFX\foley17_0CD05F8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwordSwing\foley17		106140
