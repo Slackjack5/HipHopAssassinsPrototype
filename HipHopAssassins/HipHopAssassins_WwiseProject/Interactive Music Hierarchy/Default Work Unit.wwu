@@ -111,7 +111,7 @@
 						<MusicSegment Name="HipHop" ID="{1E2D0519-83E7-4B62-B9E6-A1A0AAD8934B}" ShortID="162037243">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="251210.689093055"/>
-								<Property Name="GridFrequencyPreset" Type="int16" Value="59"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="51"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="100"/>
 								<Property Name="Volume" Type="Real64">

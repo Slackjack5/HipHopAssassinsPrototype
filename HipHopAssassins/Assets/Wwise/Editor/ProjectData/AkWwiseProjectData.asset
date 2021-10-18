@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 459500f3cbdfae42b26cf434129636b6
     GuidInternal: 
-    m_lastTime: -8585671050053022635
+    m_lastTime: -8585670958253931026
     List:
     - name: Environment
       guid: 9ed5207b9f672e42a57c00327dc9e214
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 13e1d1f38c58f34496c69230f2ace555
     GuidInternal: 
-    m_lastTime: -8585671050052703573
+    m_lastTime: -8585670958253761384
     List:
     - name: Play_Beep
       guid: 40c6db52b0aacd4987c9eff457967461
@@ -198,6 +198,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 244.547
       minDuration: 244.547
+    - name: Play_RBeep
+      guid: 0efa659d4ea3274cbc4a918ed6b50e83
+      id: 1215259416
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_RBeep
+        ObjectType: 3
+        guid: 0efa659d4ea3274cbc4a918ed6b50e83
+      Path: Events\Default Work Unit\Play_RBeep
+      maxAttenuation: 0
+      maxDuration: 0.269002
+      minDuration: 0.269002
     - name: Play_SwordHit
       guid: 0f8b96ec7c4b354f9bf8060c91081650
       id: 598714956

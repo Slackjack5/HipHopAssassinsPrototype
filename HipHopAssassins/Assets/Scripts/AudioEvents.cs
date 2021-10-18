@@ -43,7 +43,6 @@ public class AudioEvents : MonoBehaviour
     currentBar = GlobalVariables.currentBar;
     currentBeat = GlobalVariables.currentBeat;
     currentGrid = GlobalVariables.currentGrid;
-
   }
 
   public void EndAudio()
