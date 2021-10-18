@@ -113,6 +113,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Announcer1" ID="{4F30775F-0D6F-4DA3-9F94-1CFE269AC142}">
+					<ChildrenList>
+						<Action Name="" ID="{60EC0AA3-2E57-4885-A004-DB90C05F77D5}" ShortID="485497626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Announcer1" ID="{002B71B2-A109-4D0D-A615-1D016BB88E61}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Announcer2" ID="{062D9CE7-2688-4A7D-928B-715505772FDB}">
+					<ChildrenList>
+						<Action Name="" ID="{59223305-7591-4546-A6CD-552C7667E25E}" ShortID="880874010">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Announcer2" ID="{545EB084-2A62-49F4-A6BC-D3A5EA82C55B}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Announcer3" ID="{DE13ABE9-E57B-43E6-9AE5-F7642BDF7271}">
+					<ChildrenList>
+						<Action Name="" ID="{4A1B665B-D147-4442-8D2E-26DF7FFBB26C}" ShortID="778741773">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Announcer3" ID="{48DD2510-D2EE-4585-A726-BD6FEA638A44}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AnnouncerEncourage" ID="{816FE685-8DBD-409B-91A2-72270A8DFFF0}">
+					<ChildrenList>
+						<Action Name="" ID="{DCC0E788-03B0-4C88-9C36-852C4175D663}" ShortID="270691341">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AnnouncerEncourage" ID="{8C45A2EC-D199-4606-B7B2-013F9E07BF69}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Woosh" ID="{86128B90-BF6E-4D14-8614-724F177EC3C3}">
+					<ChildrenList>
+						<Action Name="" ID="{03A52B43-82BA-4E1B-B2C5-97C0DEE8DB29}" ShortID="842350505">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh" ID="{E0715CE7-C69C-4E48-9BD1-10FDF69C514C}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

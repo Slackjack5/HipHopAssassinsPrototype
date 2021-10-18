@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 459500f3cbdfae42b26cf434129636b6
     GuidInternal: 
-    m_lastTime: -8585670958253931026
+    m_lastTime: -8585670770402236624
     List:
     - name: Environment
       guid: 9ed5207b9f672e42a57c00327dc9e214
@@ -94,8 +94,76 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 13e1d1f38c58f34496c69230f2ace555
     GuidInternal: 
-    m_lastTime: -8585670958253761384
+    m_lastTime: -8585670770401867612
     List:
+    - name: Play_Announcer1
+      guid: 5f77304f6f0da34d9f941cfe269ac142
+      id: 1381408836
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Announcer1
+        ObjectType: 3
+        guid: 5f77304f6f0da34d9f941cfe269ac142
+      Path: Events\Default Work Unit\Play_Announcer1
+      maxAttenuation: 0
+      maxDuration: 0.406258
+      minDuration: 0.406258
+    - name: Play_Announcer2
+      guid: e79c2d0688267d4a928b715505772fdb
+      id: 1381408839
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Announcer2
+        ObjectType: 3
+        guid: e79c2d0688267d4a928b715505772fdb
+      Path: Events\Default Work Unit\Play_Announcer2
+      maxAttenuation: 0
+      maxDuration: 0.406258
+      minDuration: 0.406258
+    - name: Play_Announcer3
+      guid: e9ab13de7be5e6439ae5f7642bdf7271
+      id: 1381408838
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Announcer3
+        ObjectType: 3
+        guid: e9ab13de7be5e6439ae5f7642bdf7271
+      Path: Events\Default Work Unit\Play_Announcer3
+      maxAttenuation: 0
+      maxDuration: 0.406258
+      minDuration: 0.406258
+    - name: Play_AnnouncerEncourage
+      guid: 85e66f81bd8d9b4091a272270a8dfff0
+      id: 2185747534
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_AnnouncerEncourage
+        ObjectType: 3
+        guid: 85e66f81bd8d9b4091a272270a8dfff0
+      Path: Events\Default Work Unit\Play_AnnouncerEncourage
+      maxAttenuation: 0
+      maxDuration: 1.156258
+      minDuration: 0.687506
     - name: Play_Beep
       guid: 40c6db52b0aacd4987c9eff457967461
       id: 2063165418
@@ -266,6 +334,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.620845
       minDuration: 0.552471
+    - name: Play_Woosh
+      guid: 908b12866ebf144d8614724f177ec3c3
+      id: 1725216094
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 13e1d1f38c58f34496c69230f2ace555
+      - ElementName: Play_Woosh
+        ObjectType: 3
+        guid: 908b12866ebf144d8614724f177ec3c3
+      Path: Events\Default Work Unit\Play_Woosh
+      maxAttenuation: 0
+      maxDuration: 0.621276
+      minDuration: 0.268151
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

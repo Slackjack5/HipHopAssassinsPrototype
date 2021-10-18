@@ -4,15 +4,19 @@
 		<UserProjectSettings Name="" ID="{B89B0C4F-35EC-452F-9966-32B4EEB951E1}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\slack\Downloads\"/>
+				<Property Name="Event Action List\{062D9CE7-2688-4A7D-928B-715505772FDB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{19FC3F23-A689-4BC7-AD6B-41BE99F203FF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2A33C25C-0B28-4163-A0DA-80EA1BC270F0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4BCCE775-9CC7-48C1-A7FA-7D9828EE8B4C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4F30775F-0D6F-4DA3-9F94-1CFE269AC142}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{51EE80C1-79C3-4053-BD8C-4F257751A984}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{52DBC640-AAB0-49CD-87C9-EFF457967461}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{816FE685-8DBD-409B-91A2-72270A8DFFF0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{87F291C8-0853-44FA-A6FE-24E5410DEC9A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9D65FA0E-A34E-4C27-BC4A-918ED6B50E83}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AF048D6C-7853-4061-9613-6C32C2E555D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C3F8DB9C-FBF0-4C69-9E63-1766487FB8BA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DE13ABE9-E57B-43E6-9AE5-F7642BDF7271}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EC968B0F-4B7C-4F35-9BF8-060C91081650}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

@@ -312,6 +312,290 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
+				<Folder Name="Announcer" ID="{BE4863D8-8E5A-4871-A525-5702B9DB1CA7}" ShortID="400266547">
+					<ChildrenList>
+						<Folder Name="Sounds" ID="{5C54A7AB-AF34-4198-9239-4A90F28A5030}" ShortID="64653449">
+							<ChildrenList>
+								<Sound Name="Announcer1" ID="{002B71B2-A109-4D0D-A615-1D016BB88E61}" ShortID="926796376">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Announcer1" ID="{8EB1AD72-8693-4549-AE25-9C292E01B54C}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Announcer1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="479044494"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Announcer1" ID="{8EB1AD72-8693-4549-AE25-9C292E01B54C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Announcer2" ID="{545EB084-2A62-49F4-A6BC-D3A5EA82C55B}" ShortID="693985599">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Announcer2" ID="{79B405F9-F9F1-4C34-AC4D-B9717922BE31}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Announcer2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="892019923"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Announcer2" ID="{79B405F9-F9F1-4C34-AC4D-B9717922BE31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Announcer3" ID="{48DD2510-D2EE-4585-A726-BD6FEA638A44}" ShortID="1067415956">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Announcer3" ID="{65B3868D-55C6-4AAD-98D4-00738CBFD601}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Announcer3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734232218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Announcer3" ID="{65B3868D-55C6-4AAD-98D4-00738CBFD601}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="AnnouncerEncourage" ID="{8C45A2EC-D199-4606-B7B2-013F9E07BF69}" ShortID="739634610">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AnnouncerGreat" ID="{CF44D417-6073-4ECA-A83B-D7F525A342DE}" ShortID="529734404">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AnnouncerGreat" ID="{FFE18C0E-FABA-4066-9BC6-906D957EB9E4}">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\AnnouncerGreat.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="790700572"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AnnouncerGreat" ID="{FFE18C0E-FABA-4066-9BC6-906D957EB9E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AnnouncerOutstanding" ID="{2B3ED1C6-6FF4-4273-9219-9F940998F085}" ShortID="687049019">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AnnouncerOutstanding" ID="{7629C15A-F946-4D50-B047-331AD0AD9D90}">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\AnnouncerOutstanding.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="204157484"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AnnouncerOutstanding" ID="{7629C15A-F946-4D50-B047-331AD0AD9D90}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AnnouncerSuper" ID="{D3EA6A50-D115-42D6-ADAE-986E342C4380}" ShortID="429716629">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AnnouncerSuper" ID="{D20B07A6-3D9F-42E0-9262-CF6463EA5367}">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\AnnouncerSuper.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="382543115"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AnnouncerSuper" ID="{D20B07A6-3D9F-42E0-9262-CF6463EA5367}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="Woosh" ID="{E0715CE7-C69C-4E48-9BD1-10FDF69C514C}" ShortID="425367616">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{19B74FF5-3832-4178-80B2-1F57EFBBB333}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="581"/>
+											<Property Name="Min" Type="Real64" Value="-455"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{8D56740F-ACD7-400B-ABF3-A59B81B05950}" ShortID="555747855">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{DF2B4033-2B91-437F-9B96-4A5EF02B3889}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="967309172"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{DF2B4033-2B91-437F-9B96-4A5EF02B3889}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{3B970BF2-13EB-4336-871B-F55ED3854269}" ShortID="718284271">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{79B2D2A1-5FF6-4743-96B0-32E974B4058A}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="152274778"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{79B2D2A1-5FF6-4743-96B0-32E974B4058A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{478DFBD9-AF8F-4315-9EB3-E2CE4896F735}" ShortID="280378843">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C418546D-757C-4DAB-8ADE-610C270734B3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E67E5B1-7C70-420E-B050-94C8BA06EB3B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{EA1A937C-4A0E-4814-8540-C3C11B805BD1}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="218072034"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn" ID="{EA1A937C-4A0E-4814-8540-C3C11B805BD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

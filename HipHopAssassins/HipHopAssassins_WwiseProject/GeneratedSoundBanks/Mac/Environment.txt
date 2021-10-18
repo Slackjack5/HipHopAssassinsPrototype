@@ -2,21 +2,46 @@ Event	ID	Name			Wwise Object Path	Notes
 	598714956	Play_SwordHit			\Default Work Unit\Play_SwordHit	
 	713430530	Play_Learning_the_Basics			\Default Work Unit\Play_Learning_the_Basics	
 	1215259416	Play_RBeep			\Default Work Unit\Play_RBeep	
+	1381408836	Play_Announcer1			\Default Work Unit\Play_Announcer1	
+	1381408838	Play_Announcer3			\Default Work Unit\Play_Announcer3	
+	1381408839	Play_Announcer2			\Default Work Unit\Play_Announcer2	
+	1725216094	Play_Woosh			\Default Work Unit\Play_Woosh	
 	1746766985	Play_SwordSwing			\Default Work Unit\Play_SwordSwing	
 	2063165418	Play_Beep			\Default Work Unit\Play_Beep	
+	2185747534	Play_AnnouncerEncourage			\Default Work Unit\Play_AnnouncerEncourage	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	2960666077	Play_Hit			\Default Work Unit\Play_Hit	
 	2984103440	Play_Grunt			\Default Work Unit\Play_Grunt	
+	3202523729	Play_Dono1			\Default Work Unit\Play_Dono1	
+	3202523730	Play_Dono2			\Default Work Unit\Play_Dono2	
+	3202523731	Play_Dono3			\Default Work Unit\Play_Dono3	
+	3407938330	Play_DonoExcited			\Default Work Unit\Play_DonoExcited	
 	3887763866	Play_SwordSheath			\Default Work Unit\Play_SwordSheath	
 	3893678178	Play_HipHop			\Default Work Unit\Play_HipHop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	65514572	DonoExcited4	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\DonoExcited4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DonoExcited\DonoExcited4		110316
+	152274778	ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Woosh\ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn		45922
+	184632377	DonoExcited2	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\DonoExcited2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DonoExcited\DonoExcited2		99292
+	204157484	AnnouncerOutstanding	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Sounds\AnnouncerOutstanding_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Announcer\Sounds\AnnouncerEncourage\AnnouncerOutstanding		204028
 	204746283	ImpactPunchFace_S011IM_294	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\ImpactPunchFace_S011IM.294_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hit\ImpactPunchFace_S011IM_294		104512
+	218072034	ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Woosh\ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn		38428
+	305509381	Dono3	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Dono3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DonoNumbers\Dono3		99292
 	314314011	SampleHipHopTrack100BPM	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\SampleHipHopTrack100BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\HipHop\SampleHipHopTrack100BPM		47110196
+	382543115	AnnouncerSuper	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Sounds\AnnouncerSuper_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Announcer\Sounds\AnnouncerEncourage\AnnouncerSuper		140636
+	391936944	DonoExcited3	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\DonoExcited3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DonoExcited\DonoExcited3		121340
 	430554294	ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwordSheath\ESM_Ancient_Game_Sword_Unsheathe_Kill_Murder_Fantasy_Weapon_Wet		264064
 	477111095	ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwordHit\ESM_Retro_Game_Weapon_LIght_Punch_3_8_Bit_Arcade_80s_Weapon_Attack		64436
+	479044494	Announcer1	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Sounds\Announcer1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Announcer\Sounds\Announcer1		71728
+	536749443	DonoExcited1	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\DonoExcited1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DonoExcited\DonoExcited1		115232
 	679869301	OS_TD_Beep_Perc	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\OS_TD_Beep_Perc_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RhythmBeep\OS_TD_Beep_Perc		47596
+	691559751	Dono2	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Dono2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DonoNumbers\Dono2		88264
+	734232218	Announcer3	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Sounds\Announcer3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Announcer\Sounds\Announcer3		71728
+	790700572	AnnouncerGreat	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Sounds\AnnouncerGreat_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Announcer\Sounds\AnnouncerEncourage\AnnouncerGreat		121340
 	807475589	ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunt\ESM_Fighting_Game_One_Shot_Designed_Human_Voice_Vocalization_Female_Irina_Grab_Grunt_03		89240
+	892019923	Announcer2	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Sounds\Announcer2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Announcer\Sounds\Announcer2		71728
+	947154695	Dono1	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Dono1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DonoNumbers\Dono1		115828
+	967309172	ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Woosh\ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn		36072
 	973058546	Learning the Basics	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\Learning the Basics_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Learning the Basics\Learning the Basics		9203544
 	989757491	foley17	G:\Unity School Projects\Hip Hop Assasins Prototype\HipHopAssassinsPrototype\HipHopAssassins\HipHopAssassins_WwiseProject\.cache\Mac\SFX\foley17_0CD05F8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwordSwing\foley17		106140
 

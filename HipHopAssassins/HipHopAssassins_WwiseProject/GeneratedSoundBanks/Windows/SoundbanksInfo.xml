@@ -11,16 +11,100 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1229948536" Language="SFX" Hash="3507900202">
+		<SoundBank Id="1229948536" Language="SFX" Hash="2875392948">
 			<ObjectPath>\SoundBanks\Default Work Unit\Environment</ObjectPath>
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1381408836" Name="Play_Announcer1" ObjectPath="\Events\Default Work Unit\Play_Announcer1" DurationType="OneShot" DurationMin="0.406258" DurationMax="0.406258">
+					<IncludedMemoryFiles>
+						<File Id="479044494" Language="SFX">
+							<ShortName>Sounds\Announcer1.wav</ShortName>
+							<Path>SFX\Sounds\Announcer1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1381408839" Name="Play_Announcer2" ObjectPath="\Events\Default Work Unit\Play_Announcer2" DurationType="OneShot" DurationMin="0.406258" DurationMax="0.406258">
+					<IncludedMemoryFiles>
+						<File Id="892019923" Language="SFX">
+							<ShortName>Sounds\Announcer2.wav</ShortName>
+							<Path>SFX\Sounds\Announcer2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1381408838" Name="Play_Announcer3" ObjectPath="\Events\Default Work Unit\Play_Announcer3" DurationType="OneShot" DurationMin="0.406258" DurationMax="0.406258">
+					<IncludedMemoryFiles>
+						<File Id="734232218" Language="SFX">
+							<ShortName>Sounds\Announcer3.wav</ShortName>
+							<Path>SFX\Sounds\Announcer3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2185747534" Name="Play_AnnouncerEncourage" ObjectPath="\Events\Default Work Unit\Play_AnnouncerEncourage" DurationType="OneShot" DurationMin="0.687506" DurationMax="1.156258">
+					<IncludedMemoryFiles>
+						<File Id="204157484" Language="SFX">
+							<ShortName>Sounds\AnnouncerOutstanding.wav</ShortName>
+							<Path>SFX\Sounds\AnnouncerOutstanding_10C4C929.wem</Path>
+						</File>
+						<File Id="382543115" Language="SFX">
+							<ShortName>Sounds\AnnouncerSuper.wav</ShortName>
+							<Path>SFX\Sounds\AnnouncerSuper_10C4C929.wem</Path>
+						</File>
+						<File Id="790700572" Language="SFX">
+							<ShortName>Sounds\AnnouncerGreat.wav</ShortName>
+							<Path>SFX\Sounds\AnnouncerGreat_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2063165418" Name="Play_Beep" ObjectPath="\Events\Default Work Unit\Play_Beep" DurationType="OneShot" DurationMin="0.269002" DurationMax="0.269002">
 					<IncludedMemoryFiles>
 						<File Id="679869301" Language="SFX">
 							<ShortName>OS_TD_Beep_Perc.wav</ShortName>
 							<Path>SFX\OS_TD_Beep_Perc_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3202523729" Name="Play_Dono1" ObjectPath="\Events\Default Work Unit\Play_Dono1" DurationType="OneShot" DurationMin="0.656259" DurationMax="0.656259">
+					<IncludedMemoryFiles>
+						<File Id="947154695" Language="SFX">
+							<ShortName>Dono1.wav</ShortName>
+							<Path>SFX\Dono1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3202523730" Name="Play_Dono2" ObjectPath="\Events\Default Work Unit\Play_Dono2" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="691559751" Language="SFX">
+							<ShortName>Dono2.wav</ShortName>
+							<Path>SFX\Dono2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3202523731" Name="Play_Dono3" ObjectPath="\Events\Default Work Unit\Play_Dono3" DurationType="OneShot" DurationMin="0.562517" DurationMax="0.562517">
+					<IncludedMemoryFiles>
+						<File Id="305509381" Language="SFX">
+							<ShortName>Dono3.wav</ShortName>
+							<Path>SFX\Dono3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3407938330" Name="Play_DonoExcited" ObjectPath="\Events\Default Work Unit\Play_DonoExcited" DurationType="OneShot" DurationMin="0.562517" DurationMax="0.687506">
+					<IncludedMemoryFiles>
+						<File Id="65514572" Language="SFX">
+							<ShortName>DonoExcited4.wav</ShortName>
+							<Path>SFX\DonoExcited4_10C4C929.wem</Path>
+						</File>
+						<File Id="184632377" Language="SFX">
+							<ShortName>DonoExcited2.wav</ShortName>
+							<Path>SFX\DonoExcited2_10C4C929.wem</Path>
+						</File>
+						<File Id="391936944" Language="SFX">
+							<ShortName>DonoExcited3.wav</ShortName>
+							<Path>SFX\DonoExcited3_10C4C929.wem</Path>
+						</File>
+						<File Id="536749443" Language="SFX">
+							<ShortName>DonoExcited1.wav</ShortName>
+							<Path>SFX\DonoExcited1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -90,6 +174,22 @@
 						<File Id="989757491" Language="SFX">
 							<ShortName>foley17.wav</ShortName>
 							<Path>SFX\foley17_0CD05F8E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1725216094" Name="Play_Woosh" ObjectPath="\Events\Default Work Unit\Play_Woosh" DurationType="OneShot" DurationMin="0.268151" DurationMax="0.621276">
+					<IncludedMemoryFiles>
+						<File Id="152274778" Language="SFX">
+							<ShortName>ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn.wav</ShortName>
+							<Path>SFX\ESM_Builder_Game_Weapon_Light_Swing_4_Swoosh_Quick_Whoosh_Transition_Page_Turn_10C4C929.wem</Path>
+						</File>
+						<File Id="218072034" Language="SFX">
+							<ShortName>ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn.wav</ShortName>
+							<Path>SFX\ESM_Builder_Game_Weapon_Light_Swing_1_Swoosh_Quick_Whoosh_Transition_Page_Turn_10C4C929.wem</Path>
+						</File>
+						<File Id="967309172" Language="SFX">
+							<ShortName>ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn.wav</ShortName>
+							<Path>SFX\ESM_Builder_Game_Weapon_Light_Swing_2_Swoosh_Quick_Whoosh_Transition_Page_Turn_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

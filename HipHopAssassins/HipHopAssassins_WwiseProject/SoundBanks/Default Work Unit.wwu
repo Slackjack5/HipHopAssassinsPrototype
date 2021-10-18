@@ -7,14 +7,19 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_SwordSheath" ID="{51EE80C1-79C3-4053-BD8C-4F257751A984}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grunt" ID="{AF048D6C-7853-4061-9613-6C32C2E555D4}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AnnouncerEncourage" ID="{816FE685-8DBD-409B-91A2-72270A8DFFF0}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{2A33C25C-0B28-4163-A0DA-80EA1BC270F0}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Announcer3" ID="{DE13ABE9-E57B-43E6-9AE5-F7642BDF7271}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Learning_the_Basics" ID="{87F291C8-0853-44FA-A6FE-24E5410DEC9A}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RhythmBeep" ID="{54E62E8F-C7EE-47B5-9C9C-49F2DC37D1A8}" WorkUnitID="{94D47AC7-5A36-4FA9-A221-CDA648F03F8F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Hit" ID="{4BCCE775-9CC7-48C1-A7FA-7D9828EE8B4C}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Beep" ID="{52DBC640-AAB0-49CD-87C9-EFF457967461}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Announcer2" ID="{062D9CE7-2688-4A7D-928B-715505772FDB}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordSwing" ID="{19FC3F23-A689-4BC7-AD6B-41BE99F203FF}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Learning the Basics" ID="{07B725BB-885F-4BC8-80B0-E51762702908}" WorkUnitID="{CE63CE78-2004-4C4A-81AC-D906F29A78A1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HipHop" ID="{C3F8DB9C-FBF0-4C69-9E63-1766487FB8BA}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Woosh" ID="{86128B90-BF6E-4D14-8614-724F177EC3C3}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Announcer1" ID="{4F30775F-0D6F-4DA3-9F94-1CFE269AC142}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordHit" ID="{EC968B0F-4B7C-4F35-9BF8-060C91081650}" WorkUnitID="{F3D1E113-588C-44F3-96C6-9230F2ACE555}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
